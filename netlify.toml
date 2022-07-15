@@ -1,7 +1,7 @@
 # explicit commands for building the site
 # and the folder to publish
 [build]
-command = "npm run build"
+command = "yarn test and yarn build"
 publish = "build"
 
 [build.environment]
@@ -17,6 +17,6 @@ TERM = "xterm"
   # before building it (and testing the built site)
   [plugins.inputs.preBuild]
     enable = true
-    start = 'npm start'
+    start = 'yarn start'
     wait-on = 'http://localhost:3000'
     wait-on-timeout = '30' # seconds
