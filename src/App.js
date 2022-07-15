@@ -56,7 +56,7 @@ export default function App() {
               onChange={(e) => setTodoInput(e.target.value)}
             />
             <br />
-            <button type="submit">Send</button>
+            <button type="submit">submit please</button>
           </form>
 
           <ul>
